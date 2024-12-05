@@ -3,9 +3,9 @@ const volumeSlider = document.querySelector(".volume-slider input");
 const keysCheck = document.querySelector(".keys-check input");
 let mapedKeys = [];
 
-let audio = new Audio(`src/tunes/a.wav`);
+let audio = new Audio(`src/assets/tunes/a.wav`);
 const playTune = (key) => {
-    audio.src = (`src/tunes/${key}.wav`);
+    audio.src = (`src/assets/tunes/${key}.wav`);
     audio.play();
 
     const clickedKey = document.querySelector(`[data-key="${key}"]`)
