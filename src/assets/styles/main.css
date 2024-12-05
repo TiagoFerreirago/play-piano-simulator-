@@ -3,7 +3,7 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #e3f2fd;
+    background-color: rgb(209, 205, 203);
     color: #ffffff;
 }
 
@@ -12,6 +12,7 @@ body{
     border-radius: 20px;
     padding: 35px 40px;
     background-color: black;
+    z-index: 1;
 }
 
 .container header{
